@@ -1,5 +1,5 @@
 import { useState } from "react";
-import useBarcodeDetection from "./lib/useBarcodeDetection";
+import useBarcodeDetection from "../lib/useBarcodeDetection";
 
 const App = () => {
   const [isScanning, setIsScanning] = useState(false);
