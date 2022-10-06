@@ -1,7 +1,7 @@
 import { useState } from "react";
 import useBarcodeDetection from "./lib/useBarcodeDetection";
 
-function App() {
+const App = () => {
   const [isScanning, setIsScanning] = useState(false);
   const onDetected = (barcodes: string[]) => {
     console.log(barcodes);
@@ -27,6 +27,6 @@ function App() {
       </button>
     </>
   );
-}
+};
 
 export default App;
