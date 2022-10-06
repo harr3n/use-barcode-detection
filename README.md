@@ -13,6 +13,8 @@ npm i use-barcode-detection
 ## Usage
 
 ```tsx
+import useBarcodeDetection from "use-barcode-detection";
+
 const ScannerComponent = () => {
   const [isScanning, setIsScanning] = useState(false);
   const onDetected = (barcodes: string[]) => {
@@ -43,4 +45,5 @@ const ScannerComponent = () => {
 
 - Better error handling
 - Add API reference
+- Tests
 - ...
