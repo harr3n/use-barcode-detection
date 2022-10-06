@@ -38,3 +38,9 @@ const ScannerComponent = () => {
   );
 };
 ```
+
+## TODO
+
+- Better error handling
+- Add API reference
+- ...
