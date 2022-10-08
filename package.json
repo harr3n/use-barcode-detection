@@ -6,21 +6,34 @@
   ],
   "main": "./dist/use-barcode-detection.umd.cjs",
   "module": "./dist/use-barcode-detection.js",
-  "types": "dist/use-barcode-detection.d.ts",
+  "types": "./dist/use-barcode-detection.d.ts",
   "exports": {
     ".": {
       "import": "./dist/use-barcode-detection.js",
       "require": "./dist/use-barcode-detection.umd.cjs"
     }
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harr3n/use-barcode-detection.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "author": "Erik Olsson",
+  "license": "MIT",
+  "keywords": [
+    "hook",
+    "hooks",
+    "barcode",
+    "detection",
+    "react"
+  ],
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
