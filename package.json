@@ -30,6 +30,9 @@
     "hook",
     "hooks",
     "barcode",
+    "barcodes",
+    "detect",
+    "scan",
     "detection",
     "react"
   ],
