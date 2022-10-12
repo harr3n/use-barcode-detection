@@ -17,7 +17,7 @@ import useBarcodeDetection from "use-barcode-detection";
 
 const ScannerComponent = () => {
   const [isScanning, setIsScanning] = useState(false);
-  const onDetected = (barcodes: string[]) => {
+  const handleDetetected = (barcodes: string[]) => {
     // Handle barcode detection...
     console.log(barcodes);
 
@@ -27,7 +27,7 @@ const ScannerComponent = () => {
   const { ref } = useBarcodeDetection({
     interval: 150,
     active: isScanning,
-    onDetected,
+    onDetected: handleDetected,
   });
 
   return (
